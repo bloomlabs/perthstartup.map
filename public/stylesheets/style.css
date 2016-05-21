@@ -1,8 +1,59 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Muli", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: black;
+}
+
+.logo{
+  outline: 0;
+  max-height: 56px;
+  float:left;
+}
+
+.top{
+  height: 53px;
+  display: block;
+}
+
+#placeholder{
+  margin: 0 auto;
+  max-width: 40%;
+  color: black;
+  margin-top: 20%;
+}
+
+.nav-wrapper{
+  position:relative;
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-wrapper>h1{
+  color: white;
+  display: inline;
+  font-size: 2.8em;
+  font-weight: bold;
+}
+
+nav {
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 800px;
+    text-align: left;
+    height: 20px;
+    padding: 10px 20px;
+    background-color: #03a9f4;
+    background: -webkit-linear-gradient(#03a9f4, #0288D1);
+    background: -o-linear-gradient(#03a9f4, #0288D1);
+    background: -moz-linear-gradient(#03a9f4, #0288D1);
+    background: linear-gradient(#03a9f4, #0288D1);
 }

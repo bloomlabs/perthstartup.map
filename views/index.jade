@@ -1,5 +1,18 @@
 extends layout
 
 block content
-  h1= title
-  p This is a placeholder for the startup map that'll be here soon.
+
+  nav(class='top')
+    div(class='row')
+      div(class='nav-wrapper')
+        div(class='one column')
+          a(href='http://www.bloom.org.au/')
+            img(class='logo', src='images/bloomlogo.png')
+        div(class='eleven columns')
+          h1 Perth Startup Map
+
+  div(id='placeholder')
+    h1= title
+    p This is a placeholder for the startup map that'll be here soon.
+    
+ 
